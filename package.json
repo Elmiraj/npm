@@ -1,0 +1,14 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "my first npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "junzhang",
+  "license": "ISC"
+}
