@@ -4,11 +4,19 @@
   "description": "my first npm package",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "eslint": "eslint *.js"
   },
   "keywords": [
     "first"
   ],
   "author": "junzhang",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {
+    "npm": "^6.0.1"
+  }
 }
